@@ -13,50 +13,94 @@
 }
 
 body {
-  font-family: verdana;
+    height: 100vh;
+    width: auto;
+    background: lightgrey;
+    font-family: verdana;
 }
 
-/* CONTAINER REALE */
-.subcontainer {
-  height: 100vh;
-  width: auto;
+.flex-prop {
+  display: flex;
 }
 
-/* ASIDE */
-#spotifycontainer {
-  height: 850px;
-  width: auto;
-  /* background-color: black; */
+#logo {
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-left: 10px;
 }
 
-/* HEADER */
-#ms_upgrade {
-  height: 80px;
-  width: auto;
+aside {
+    background: black;
+    width: 260px;
+    color: grey;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 100px);
 }
 
-#ms_navbar {
+aside p {
+  font-size: 15px;
+  font-weight: bold;
+}
 
+aside img {
+    width: 30px;
+}
+
+aside a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
-/* MAIN */
-/* main {
-  overflow-y: scroll;
-} */
-
-#ms_recent {
-  /* height: 650px;
-  width: auto; */
+aside ul {
+    list-style: none;
+    padding-left: 20px;
 }
 
-#ms_songs {
-  height: 250px;
-  width: auto;
+aside li {
+    padding-top: 12px;
 }
 
-#ms_maincontainer {
-  /* height: 850px;
-  width: auto;
-  overflow: auto; */
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a span {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: grey;
+    color: black;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#playlist {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: white;
+}
+
+#asidebottom {
+    padding-bottom: 30px;
+}
+
+#asidebottom a {
+    padding-left: 10px;
+}
+
+
+#asidebottom .profilepic {
+    padding-top: 40px;
+}
+
+#asidebottom h3 {
+    padding-top: 40px;
 }

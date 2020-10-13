@@ -2,96 +2,42 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Spotify web</title>
   </head>
+
   <body>
-    <div class="container-fluid">
-      <!-- <div id="containerbig"> -->
-        <!-- <div class="col-xs-12"> -->
 
-
-        <!-- BIGCONTAINER -->
-          <section id="bigcontainer" class="row">
-            <!-- CONTAINER REALE -->
-            <div class="col-xs-12">
-              <div class="subcontainer">
-
-                <!-- ASIDE -->
-                <aside>
-                <div class="col-xs-2">
-                  <div id="spotifycontainer" class="row">
-
-                  </div>
-                </div>
-                </aside>
-
-                <!-- HEADER -->
-                <div id="ms_maincontainer">
-
-
-                <header>
-                <div class="col-xs-10">
-                  <div id="ms_upgrade">
-                    EFFETTUA L'UPGRADE
-                  </div>
-                </div>
-                <div class="col-xs-10">
-                  <div id="ms_navbar">
-                    NAVBAR
-                  </div>
-                </div>
-                </header>
-
-                <!-- MAIN -->
-                <main>
-                <div class="col-xs-10">
-                  <div id="ms_recent">
-                    RECENTLY PLAYED
-                  </div>
-                </div>
-
-                <div class="col-xs-10">
-                  <div id="ms_songs">
-                    Songs
-                  </div>
-                </div>
-
-                <div class="col-xs-10">
-                  <div id="ms_recent">
-                    RECENTLY PLAYED
-                  </div>
-                </div>
-
-                <div class="col-xs-10">
-                  <div id="ms_songs">
-                    Songs
-                  </div>
-                </div>
-                </div>
-
-                </main>
-
-                <!-- FOOTER -->
-                <footer>
-                  <div class="col-xs-12">
-                    EFFETTUA L'UPGRADE
-                  </div>
-                </footer>
-
-
-              </div>
-            </div>
-
+      <aside class="flex-prop">
+          <div id="sidebar">
+              <ul>
+                <li><a href="#"><img id="logo" src="img/logo.svg" alt=""></a></li>
+                <li><a href="#"><img src="img/home.svg" alt=""><p>Home</p></a></li>
+                <li><a href="#"><img src="img/search.svg" alt=""><p>Cerca</p></a></li>
+                <li><a href="#"><img src="img/libreria.svg" alt=""><p>La tua libreria</p></a></li>
+                </ul>
+              <h2 id="playlist">PLAYLIST</h2>
+              <ul>
+                <li><a href="#"><span>+</span>Crea Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+              </ul>
           </div>
-          </section>
+          <div id="asidebottom">
+            <div>
+              <a class="flex-prop" href="#"><img src="img/download.svg" alt="">Installa app</a>
+              <hr>
+            </div>
+            <div>
+              <a><img class="profilepic" src="img/profile.svg" alt=""><h3>Matteo</h3></a>
+            </div>
+          </div>
+      </aside>
 
-
-
-        <!-- </div> -->
-      <!-- </div> cointainerbig -->
-    </div> <!-- container-fluid -->
   </body>
 </html>
