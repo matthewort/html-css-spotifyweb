@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* debug */
+[class*="col-"] {
+  min-height: 50px;
+  background-color: #5ea9be;
+  border: solid 1px black;
+  /* padding: 2px; */
+}
+
+body {
+  font-family: verdana;
+}
+
+/* CONTAINER REALE */
+.subcontainer {
+  height: 100vh;
+  width: auto;
+}
+
+/* ASIDE */
+#spotifycontainer {
+  height: 850px;
+  width: auto;
+  /* background-color: black; */
+}
+
+/* HEADER */
+#ms_upgrade {
+  height: 80px;
+  width: auto;
+}
+
+#ms_navbar {
+
+}
+
+
+/* MAIN */
+/* main {
+  overflow-y: scroll;
+} */
+
+#ms_recent {
+  /* height: 650px;
+  width: auto; */
+}
+
+#ms_songs {
+  height: 250px;
+  width: auto;
+}
+
+#ms_maincontainer {
+  /* height: 850px;
+  width: auto;
+  overflow: auto; */
+}
