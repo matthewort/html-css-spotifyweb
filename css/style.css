@@ -30,6 +30,7 @@ body {
     margin-left: 10px;
 }
 
+/* ASIDE */
 aside {
     background: black;
     width: 260px;
@@ -108,13 +109,37 @@ a span {
 
 /* MAIN */
 
+/* SECTION DESTRA */
 /* NAV */
+main {
+  background: #071b27;
+  color: grey;
+  height: calc(100vh - 100px);
+  width: calc(100vw - 260px);
+  flex-direction: column;
+  justify-content: space-between;
+  float: left;
+}
+
 section {
-    background: #071b27;
-    color: grey;
-    height: calc(100vh - 100px);
-    width: calc(100vw - 260px);
-    flex-direction: column;
-    justify-content: space-between;
+  background-color: #040f16;
+  color: grey;
+  height: 100px;
+  width: calc(100vw - 260px);
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+}
+
+#upgrade {
+  align-self: flex-end;
+}
+
+/* FOOTER */
+footer {
+    background: grey;
+    width: 100vw;
+    /* height: calc(100vh - 900px); */
+    height: 100px;
     float: left;
 }
