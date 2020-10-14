@@ -196,6 +196,7 @@ main {
   justify-content: space-around;
   float: left;
   flex-wrap: wrap;
+
 }
 
 #section4 img {
@@ -204,14 +205,24 @@ main {
   padding-top: 10px;
 }
 
-#section4 div {
+#section4 div, span {
   display: inline-block;
   padding-left: 10px;
 }
 
+#strng {
+
+}
+/* #strng {
+text-align: center;
+word-wrap: break-word;
+width: 100px;
+} */
+
 .caption {
   display: block;
   text-align: center;
+  font-size: 15px;
 }
 
 /* SECTION5 CREATO PER JOHN DOE*/
