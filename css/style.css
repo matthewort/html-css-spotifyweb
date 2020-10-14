@@ -132,6 +132,15 @@ main {
   float: left;
 }
 
+#section1 a:hover {
+  font-size: 17px;
+  border: 1px solid white;
+  padding: 10px 40px;
+  border-radius: 80px;
+  color: white;
+  background-color: transparent;
+}
+
 #upgrade {
   align-self: flex-end;
   padding-right: 15px;
@@ -156,6 +165,10 @@ main {
   float: left;
 }
 
+#section2 a:hover {
+  color: white;
+  border-bottom:3px solid #7FFF00;
+}
 
 #navbar {
   align-self: center;
@@ -175,8 +188,8 @@ main {
 
 /* SECTION3 RECENTLY PLAYED */
 #section3 {
-  background-color: orange;
-  padding-top: 10px;
+  /* background-color: orange; */
+  padding-top: 30px;
   padding-bottom: 10px;
   /* width: calc(100vw - 260px); */
   flex-direction: column;
@@ -186,13 +199,14 @@ main {
 
 #section3 h1 {
   padding-left: 15px;
+  color: white;
 }
 
 /* SECTION4 IMGSUP */
 #section4 {
   /* min-height: 250px; */
   /* width: calc(100vw - 260px);  */
-  background-color: brown;
+  /* background-color: brown; */
   flex-direction: column;
   justify-content: space-around;
   float: left;
@@ -238,8 +252,8 @@ width: 100px;
 
 /* SECTION5 CREATO PER JOHN DOE*/
 #section5 {
-  background-color: orange;
-  padding-top: 10px;
+  /* background-color: orange; */
+  padding-top: 30px;
   padding-bottom: 10px;
   /* min-height: 75px; */
   /* width: calc(100vw - 260px); */
@@ -248,11 +262,22 @@ width: 100px;
   float: left;
 }
 
+#section5 h1 {
+  padding-left: 15px;
+  color: white;
+}
+
+#section5 p {
+  padding-left: 15px;
+  color: grey;
+}
+
+
 /* SECTION6 IMGSCENTER */
 #section6 {
   /* min-height: 200px;
   width: calc(100vw - 260px); */
-  background-color: brown;
+  /* background-color: brown; */
   flex-direction: column;
   justify-content: space-around;
   float: left;
@@ -272,8 +297,8 @@ width: 100px;
 
 /* SECTION5 ARTISTI PIÙ POPOLARI*/
 #section7 {
-  background-color: orange;
-  padding-top: 10px;
+  /* background-color: orange; */
+  padding-top: 30px;
   padding-bottom: 10px;
   /* height: 50px;
   width: calc(100vw - 260px); */
@@ -282,11 +307,21 @@ width: 100px;
   float: left;
 }
 
+#section7 h1 {
+  padding-left: 15px;
+  color: white;
+}
+
+#section7 p {
+  padding-left: 15px;
+  color: grey;
+}
+
 /* SECTION6 IMGSDOWN */
 #section8 {
   /* min-height: 200px;
   width: calc(100vw - 260px); */
-  background-color: brown;
+  /* background-color: brown; */
   flex-direction: column;
   justify-content: space-around;
   float: left;
