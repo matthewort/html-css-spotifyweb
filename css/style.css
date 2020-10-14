@@ -109,13 +109,12 @@ a span {
 /* MAIN */
 
 /* NAV */
-header {
+section {
     background: #071b27;
     color: grey;
-    height: 120px;
-    width: 100vw;
+    height: calc(100vh - 100px);
+    width: calc(100vw - 260px);
     flex-direction: column;
     justify-content: space-between;
-    width: calc(100vw - 260px);
-    float: right;
+    float: left;
 }
