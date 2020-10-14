@@ -339,6 +339,11 @@ width: 100px;
   padding-left: 10px;
 }
 
+#lana, #einaudi {
+  border-radius: 100%;
+}
+
+
 /* #section4, #section6, #section8 span {
   font-weight: bold;
   color: white;
