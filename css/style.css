@@ -14,7 +14,7 @@
 
 body {
     height: 100vh;
-    width: auto;
+    width: 100vw;
     background: lightgrey;
     font-family: verdana;
 }
@@ -37,6 +37,7 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     height: calc(100vh - 100px);
+    float: left;
 }
 
 aside p {
@@ -103,4 +104,18 @@ a span {
 
 #asidebottom h3 {
     padding-top: 40px;
+}
+
+/* MAIN */
+
+/* NAV */
+header {
+    background: #071b27;
+    color: grey;
+    height: 120px;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100vw - 260px);
+    float: right;
 }
