@@ -117,11 +117,11 @@ main {
   height: calc(100vh - 100px);
   width: calc(100vw - 260px);
   flex-direction: column;
-  justify-content: space-between;
   float: left;
 }
 
-section {
+/* SECTION1 EFFTTUA UPGRADE */
+#section1 {
   background-color: #040f16;
   color: grey;
   height: 100px;
@@ -133,7 +133,33 @@ section {
 
 #upgrade {
   align-self: flex-end;
+  padding-right: 15px;
 }
+
+#upgrade a {
+  font-size: 15px;
+  border: 1px solid white;
+  padding: 10px 40px;
+  border-radius: 80px;
+  color: white;
+  background-color: transparent;
+}
+
+/* SECTION2 EFFTTUA UPGRADE */
+#navbar {
+  background-color: lightgrey;
+  height: 50px;
+  width: calc(100vw - 260px);
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
 
 /* FOOTER */
 footer {
