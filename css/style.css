@@ -217,6 +217,7 @@ main img:hover {
   /* background-color: orange; */
   padding-top: 30px;
   padding-bottom: 10px;
+  padding-left: 15px;
   /* width: calc(100vw - 260px); */
   flex-direction: column;
   justify-content: center;
@@ -248,16 +249,10 @@ main img:hover {
 
 #section4 div {
   padding-left: 10px;
+  width: 200px;
+  margin-left: 20px;
 }
 
-#strng {
-
-}
-/* #strng {
-text-align: center;
-word-wrap: break-word;
-width: 100px;
-} */
 
 .caption {
   display: block;
@@ -282,6 +277,7 @@ width: 100px;
   /* background-color: orange; */
   padding-top: 30px;
   padding-bottom: 10px;
+  padding-left: 15px;
   /* min-height: 75px; */
   /* width: calc(100vw - 260px); */
   flex-direction: column;
@@ -319,7 +315,9 @@ width: 100px;
 }
 
 #section6 div {
-  padding-left: 15px;
+  padding-left: 10px;
+  width: 200px;
+  margin-left: 20px;
 }
 
 /* SECTION5 ARTISTI PIÙ POPOLARI*/
@@ -327,6 +325,7 @@ width: 100px;
   /* background-color: orange; */
   padding-top: 30px;
   padding-bottom: 10px;
+  padding-left: 15px;
   /* height: 50px;
   width: calc(100vw - 260px); */
   flex-direction: column;
@@ -363,8 +362,9 @@ width: 100px;
 }
 
 #section8 div {
-  /* display: inline-block; */
   padding-left: 10px;
+  width: 200px;
+  margin-left: 20px;
 }
 
 #lana, #einaudi {
@@ -392,4 +392,13 @@ footer {
 
 .left_block {
   align-self: center;
+}
+
+.left_block img {
+  height: 60px;
+  width: 60px;
+}
+
+.left_block span {
+  display: inline-block;
 }
