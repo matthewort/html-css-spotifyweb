@@ -656,6 +656,259 @@ footer {
       padding-top: 40px;
   }
 
+  /* MAIN */
+
+  /* CONTAINER GENERALE DESTRA */
+  /* NAV */
+  main {
+    background: #071b27;
+    color: grey;
+    height: calc(100vh - 100px);
+    width: calc(100vw - 70px);
+    flex-direction: column;
+    float: left;
+    overflow-y: scroll;
+  }
+
+  main img:hover {
+    opacity: 0.5;
+  }
+
+  /* SECTION1 EFFTTUA UPGRADE */
+  #section1 {
+    background-color: #040f16;
+    opacity: 0.7;
+    color: grey;
+    min-height: 100px;
+    width: calc(100vw - 70px);
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    position: fixed;
+    top: 0;
+  }
+
+  #section1 a:hover {
+    font-size: 17px;
+    border: 1px solid white;
+    padding: 10px 40px;
+    border-radius: 80px;
+    color: white;
+    background-color: transparent;
+  }
+
+  #upgrade {
+    align-self: flex-end;
+    padding-right: 15px;
+  }
+
+  #upgrade a {
+    opacity: 1;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 10px 40px;
+    border-radius: 80px;
+    color: white;
+    background-color: transparent;
+    margin-right: 10px;
+  }
+
+  /* SECTION2 NAVBAR */
+  #section2 {
+    /* background-color: lightgrey; */
+    min-height: 50px;
+    /* width: calc(100vw - 260px); */
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    padding-top: 120px;
+  }
+
+  #section2 a:hover {
+    color: white;
+    border-bottom:3px solid #7FFF00;
+  }
+
+  #navbar {
+    align-self: center;
+  }
+
+  #navbar ul {
+    list-style: none;
+  }
+
+  #navbar li {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+    padding-right: 15px;
+  }
+
+  /* SECTION3 RECENTLY PLAYED */
+  #section3 {
+    /* background-color: orange; */
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    /* width: calc(100vw - 260px); */
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+  }
+
+  #section3 h1 {
+    padding-left: 15px;
+    color: white;
+  }
+
+  /* SECTION4 IMGSUP */
+  #section4 {
+    /* min-height: 250px; */
+    /* width: calc(100vw - 260px);  */
+    /* background-color: brown; */
+    flex-direction: row;
+    justify-content: flex-start;
+    /* float: left; */
+    flex-wrap: wrap;
+
+  }
+
+  #section4 img {
+    max-height: 200px;
+    width: auto;
+    padding-top: 10px;
+  }
+
+  #section4 div {
+    padding-left: 10px;
+    width: 200px;
+    margin-left: 20px;
+  }
+
+
+  .caption {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+  }
+
+  .subcaption {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    padding-top: 10px;
+  }
+
+  /* SECTION5 CREATO PER JOHN DOE*/
+  #section5 {
+    /* background-color: orange; */
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    /* min-height: 75px; */
+    /* width: calc(100vw - 260px); */
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  #section5 h1 {
+    padding-left: 15px;
+    color: white;
+  }
+
+  #section5 p {
+    padding-left: 15px;
+    color: grey;
+    padding-top: 10px;
+  }
+
+
+  /* SECTION6 IMGSCENTER */
+  #section6 {
+    /* min-height: 250px; */
+    /* width: calc(100vw - 260px);  */
+    /* background-color: brown; */
+    flex-direction: row;
+    justify-content: flex-start;
+    /* float: left; */
+    flex-wrap: wrap;
+
+  }
+
+  #section6 img {
+    max-height: 200px;
+    width: auto;
+    padding-top: 10px;
+  }
+
+  #section6 div {
+    padding-left: 10px;
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  /* SECTION7 ARTISTI PIÙ POPOLARI*/
+  #section7 {
+    /* background-color: orange; */
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    /* height: 50px;
+    width: calc(100vw - 260px); */
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+  }
+
+  #section7 h1 {
+    padding-left: 15px;
+    color: white;
+  }
+
+  #section7 p {
+    padding-left: 15px;
+    color: grey;
+    padding-top: 10px;
+  }
+
+  /* SECTION8 IMGSDOWN */
+  #section8 {
+    /* min-height: 250px; */
+    /* width: calc(100vw - 260px);  */
+    /* background-color: brown; */
+    flex-direction: row;
+    justify-content: flex-start;
+    /* float: left; */
+    flex-wrap: wrap;
+  }
+
+  #section8 img {
+    max-height: 200px;
+    width: auto;
+    padding-top: 10px;
+  }
+
+  #section8 div {
+    padding-left: 10px;
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  #lana, #einaudi {
+    border-radius: 100%;
+  }
+
+
+  /* #section4, #section6, #section8 span {
+    font-weight: bold;
+    color: white;
+  } */
 
 
 }
