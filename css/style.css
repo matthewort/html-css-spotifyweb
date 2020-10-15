@@ -151,10 +151,12 @@ main img:hover {
   opacity: 0.7;
   color: grey;
   min-height: 100px;
-  /* width: calc(100vw - 260px); */
+  width: calc(100vw - 260px);
   flex-direction: column;
   justify-content: center;
   float: left;
+  position: fixed;
+  top: 0;
 }
 
 #section1 a:hover {
@@ -179,6 +181,7 @@ main img:hover {
   border-radius: 80px;
   color: white;
   background-color: transparent;
+  margin-right: 10px;
 }
 
 /* SECTION2 NAVBAR */
@@ -189,6 +192,7 @@ main img:hover {
   flex-direction: column;
   justify-content: center;
   float: left;
+  padding-top: 120px;
 }
 
 #section2 a:hover {
@@ -383,22 +387,47 @@ main img:hover {
 footer {
     background: grey;
     width: 100vw;
-    /* height: calc(100vh - 900px); */
     height: 100px;
-    flex-direction: row;
     justify-content: space-between;
-    position: relative;
+
 }
 
-.left_block {
-  align-self: center;
+.left_block1 {
+  align-items: center;
+  padding-left: 10px;
+  flex-basis: 280px;
+  justify-content: space-between;
+  display: flex;
 }
 
-.left_block img {
+.left_block1_img img {
   height: 60px;
   width: 60px;
+  display: inline-block;
+
 }
 
-.left_block span {
-  display: inline-block;
+.left_block1_text {
+  align-self: center;
+  text-align: left;
+  /* padding-right: 60px; */
+  padding-left: 15px;
+}
+
+.left_block1_icons {
+  align-self: center;
+  text-align: left;
+  /* padding-right: 60px; */
+  padding-left: 15px;
+  flex-basis: 100px;
+}
+
+.left_block2 {
+  align-self: center;
+  flex-basis: 400px;
+}
+
+.left_block3 {
+  align-self: center;
+  flex-basis: 150px;
 }
