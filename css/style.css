@@ -426,19 +426,22 @@ footer {
 
 .left_block2 {
   /* flex-basis: 250px; */
-  justify-content: flex-start;
+  justify-content: center;
   width: 33%;
   display: flex;
 }
 
 .left_block2_icons {
-  padding-left: 80px;
+  align-self: center;
+
 }
 
 .left_block2_bar {
   height: 5px;
   width: 500px;
   background-color: white;
+  align-self: center;
+  display: block;
 
 }
 
