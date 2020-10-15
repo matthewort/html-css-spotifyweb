@@ -31,6 +31,11 @@ body {
 }
 
 /* ASIDE */
+#sidebar {
+  overflow: hidden;
+}
+
+
 aside {
     background: black;
     height: calc(100vh - 100px);
@@ -358,7 +363,7 @@ width: 100px;
 }
 
 #section8 div {
-  display: inline-block;
+  /* display: inline-block; */
   padding-left: 10px;
 }
 
