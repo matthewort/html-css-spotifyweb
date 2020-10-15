@@ -429,21 +429,46 @@ footer {
   justify-content: center;
   width: 33%;
   display: flex;
+  flex-direction: column;
 }
 
 .left_block2_icons {
   align-self: center;
+  padding-bottom: 10px;
 
 }
 
 .left_block2_bar {
   height: 5px;
-  width: 500px;
+  width: 80%;
   background-color: white;
-  align-self: center;
-  display: block;
+  /* align-self: center;
+  flex-direction: row; */
+  float: left;
+  display: inline;
+}
+
+.bl1 {
+  float: left;
+  justify-content: flex-start;
+  display: inline;
+
 
 }
+
+.bl2 {
+  float: right;
+  justify-content: flex-end;
+  display: inline;
+
+  text-align: right;
+
+}
+
+.barcontainer {
+  width: 100%;
+}
+
 
 
 .left_block3 {
