@@ -389,14 +389,16 @@ footer {
     width: 100vw;
     height: 100px;
     justify-content: space-between;
+    flex-direction: row;
 
 }
 
 .left_block1 {
   align-items: center;
   padding-left: 10px;
-  flex-basis: 280px;
-  justify-content: space-between;
+  /* flex-basis: 300px; */
+  width: 33%;
+  justify-content: flex-start;
   display: flex;
 }
 
@@ -419,15 +421,31 @@ footer {
   text-align: left;
   /* padding-right: 60px; */
   padding-left: 15px;
-  flex-basis: 100px;
+  /* flex-basis: 100px; */
 }
 
 .left_block2 {
-  align-self: center;
-  flex-basis: 400px;
+  /* flex-basis: 250px; */
+  justify-content: flex-start;
+  width: 33%;
+  display: flex;
 }
+
+.left_block2_icons {
+  padding-left: 80px;
+}
+
+.left_block2_bar {
+  height: 5px;
+  width: 500px;
+  background-color: white;
+
+}
+
 
 .left_block3 {
   align-self: center;
-  flex-basis: 150px;
+  /* flex-basis: 150px; */
+  justify-content: flex-start;
+  width: 33%;
 }
