@@ -440,25 +440,24 @@ footer {
 
 .left_block2_bar {
   height: 5px;
-  width: 80%;
+  width: 75%;
   background-color: white;
   /* align-self: center;
   flex-direction: row; */
   float: left;
   display: inline;
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .bl1 {
   float: left;
-  justify-content: flex-start;
   display: inline;
-
-
 }
 
 .bl2 {
-  float: right;
-  justify-content: flex-end;
+  float: left;
   display: inline;
 
   text-align: right;
