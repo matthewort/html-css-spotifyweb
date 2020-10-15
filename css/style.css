@@ -30,6 +30,10 @@ body {
     margin-left: 10px;
 }
 
+#logo1 {
+  display: none;
+}
+
 /* ASIDE */
 #sidebar {
   overflow: hidden;
@@ -116,6 +120,7 @@ a span {
 
 #asidebottom a {
     padding-left: 10px;
+    padding-left: 15px;
 }
 
 
@@ -126,6 +131,8 @@ a span {
 #asidebottom h3 {
     padding-top: 40px;
 }
+
+  .short-text { display: none; }
 
 /* MAIN */
 
@@ -324,7 +331,7 @@ main img:hover {
   margin-left: 20px;
 }
 
-/* SECTION5 ARTISTI PIÙ POPOLARI*/
+/* SECTION7 ARTISTI PIÙ POPOLARI*/
 #section7 {
   /* background-color: orange; */
   padding-top: 30px;
@@ -348,7 +355,7 @@ main img:hover {
   padding-top: 10px;
 }
 
-/* SECTION6 IMGSDOWN */
+/* SECTION8 IMGSDOWN */
 #section8 {
   /* min-height: 250px; */
   /* width: calc(100vw - 260px);  */
@@ -385,7 +392,7 @@ main img:hover {
 
 /* FOOTER */
 footer {
-    background: grey;
+    background: #171313;
     width: 100vw;
     height: 100px;
     justify-content: space-between;
@@ -393,6 +400,7 @@ footer {
 
 }
 
+/* sottoblocco sinistra */
 .left_block1 {
   align-items: center;
   padding-left: 10px;
@@ -414,16 +422,25 @@ footer {
   text-align: left;
   /* padding-right: 60px; */
   padding-left: 15px;
+  color: grey;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#lana {
+  color: white;
 }
 
 .left_block1_icons {
   align-self: center;
   text-align: left;
   /* padding-right: 60px; */
-  padding-left: 15px;
+  padding-left: 40px;
   /* flex-basis: 100px; */
+  color: grey;
 }
 
+/* sottoblocco centro */
 .left_block2 {
   /* flex-basis: 250px; */
   justify-content: center;
@@ -433,9 +450,18 @@ footer {
 }
 
 .left_block2_icons {
+  /* height: 30px;
+  width: 180px; */
+  height: 40%;
+  width: 28%;
   align-self: center;
   padding-bottom: 10px;
+  color: white;
+}
 
+.left_block2_icons i {
+  /* margin-left: 12px;
+  align-self: center; */
 }
 
 .left_block2_bar {
@@ -454,25 +480,182 @@ footer {
 .bl1 {
   float: left;
   display: inline;
+  color: white;
 }
 
 .bl2 {
   float: left;
   display: inline;
-
   text-align: right;
-
+  color: white;
 }
 
 .barcontainer {
   width: 100%;
 }
 
-
-
+/* sottoblocco destra */
 .left_block3 {
-  align-self: center;
-  /* flex-basis: 150px; */
-  justify-content: flex-start;
+  /* flex-basis: 250px; */
+  justify-content: flex-end;
   width: 33%;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.left_block3_icons {
+  align-self: center;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.left_block3_icons i {
+  padding-right: 8px;
+}
+
+.left_block3_bar {
+  height: 5px;
+  width: 45%;
+  background-color: white;
+  /* align-self: center;
+  flex-direction: row; */
+  display: inline;
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 7px;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  #logo {
+      width: 150px;
+      padding-top: 15px;
+      padding-bottom: 20px;
+      margin-left: 10px;
+      display: none;
+  }
+
+  #logo1 {
+    display: inline-block;
+    padding-left: 7px;
+  }
+
+  /* ASIDE */
+  #sidebar {
+    overflow: hidden;
+  }
+
+
+  aside {
+      background: black;
+      height: calc(100vh - 100px);
+      width: 70px;
+      color: grey;
+      flex-direction: column;
+      justify-content: space-between;
+      float: left;
+  }
+
+  aside p {
+    font-size: 15px;
+    font-weight: bold;
+    display: none;
+  }
+
+  aside img {
+      width: 30px;
+  }
+
+  aside a {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+
+  aside a:hover {
+      color: white;
+  }
+
+  aside span:hover {
+      background-color: white;
+  }
+
+  aside ul {
+      list-style: none;
+      padding-left: 20px;
+  }
+
+  aside li {
+      padding-top: 12px;
+  }
+
+  aside h3 {
+      color: white;
+      display: none;
+  }
+
+  a {
+      color: grey;
+      text-decoration: none;
+  }
+
+  a span {
+      font-size: 30px;
+      font-weight: bold;
+      background-color: grey;
+      color: black;
+      height: 38px;
+      width: 38px;
+      text-align: center;
+      margin-right: 10px;
+  }
+
+  #playlist {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    display: none;
+  }
+
+  #nome_playlist {
+    overflow-y: scroll;
+    height: 50%;
+    display: none;
+  }
+
+  hr {
+    display: none;
+  }
+
+  #asidebottom {
+      padding-bottom: 30px;
+  }
+
+  #asidebottom a {
+      padding-left: 15px;
+  }
+
+  .short-text {
+    display: inline-block;
+  }
+
+  .full-text {
+    display: none;
+  }
+
+  #asidebottom .profilepic {
+      padding-top: 40px;
+  }
+
+  #asidebottom h3 {
+      padding-top: 40px;
+  }
+
+
+
 }
