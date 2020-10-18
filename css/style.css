@@ -148,9 +148,48 @@ main {
   overflow-y: scroll;
 }
 
-main img:hover {
+/* main img:hover {
+  opacity: 0.5;
+} */
+
+.metal {
+  position: relative;
+}
+
+.metal:hover .overlay {
   opacity: 0.5;
 }
+
+#metalimg {
+  position: relative;
+}
+
+.overlay {
+position: absolute;
+/* bottom: 0; */
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5); /* Black see-through */
+color: #f1f1f1;
+height: 65%;
+width: 100%;
+transition: .5s ease;
+opacity:0;
+color: white;
+font-size: 20px;
+/* padding: 20px; */
+text-align: center;
+top: 0;
+left: 0;
+margin-bottom: 70px;
+margin-top: 10px;
+margin-right: 50px;
+}
+
+.overlay i {
+  margin-top: 60px;
+  font-size: 70px;
+}
+
 
 /* SECTION1 EFFTTUA UPGRADE */
 #section1 {
@@ -447,21 +486,38 @@ footer {
   width: 33%;
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+#circle {
+  font-size: 30px;
+}
+
+#circle:hover {
+  font-size: 40px;
 }
 
 .left_block2_icons {
   /* height: 30px;
   width: 180px; */
   height: 40%;
-  width: 28%;
+  width: 100%;
+  /* width: 28%; */
   align-self: center;
   padding-bottom: 10px;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .left_block2_icons i {
   /* margin-left: 12px;
   align-self: center; */
+  font-size: 15px;
+  text-align: center;
+  margin-left: 15px;
+  align-self: center;
 }
 
 .left_block2_bar {
@@ -470,12 +526,32 @@ footer {
   background-color: white;
   /* align-self: center;
   flex-direction: row; */
-  float: left;
   display: inline;
   margin-top: 7px;
   margin-left: 10px;
   margin-right: 10px;
+  display: flex;
+  position: relative;
 }
+
+.left_block2_bar_green {
+  height: 5px;
+  width: 50%;
+  background-color: green;
+  /* align-self: center;
+  flex-direction: row; */
+  display: inline;
+  margin-top: 7px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+
 
 .bl1 {
   float: left;
@@ -492,6 +568,9 @@ footer {
 
 .barcontainer {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 /* sottoblocco destra */
@@ -541,7 +620,10 @@ footer {
 
   #logo1 {
     display: inline-block;
-    padding-left: 7px;
+
+    font-size: 28px;
+    padding-left: 1.5px;
+    color: white;
   }
 
   /* ASIDE */
