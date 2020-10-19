@@ -214,6 +214,7 @@ main {
   float: left;
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 
 #section1 a:hover {
@@ -299,7 +300,7 @@ main {
   justify-content: flex-start;
   /* float: left; */
   flex-wrap: wrap;
-
+  z-index: 998;
 }
 
 #section4 > div {
