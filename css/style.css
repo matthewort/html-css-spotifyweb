@@ -152,11 +152,20 @@ main {
   opacity: 0.5;
 } */
 
-.metal {
+.image-container {
   position: relative;
 }
 
-.metal:hover .overlay {
+.image-item {
+  width: 100%;
+  max-width: 200px;
+}
+
+.image_containall {
+  position: relative;
+}
+
+.image_containall:hover .overlay {
   opacity: 0.5;
 }
 
@@ -165,28 +174,30 @@ main {
 }
 
 .overlay {
-position: absolute;
-/* bottom: 0; */
-background: rgb(0, 0, 0);
-background: rgba(0, 0, 0, 0.5); /* Black see-through */
-color: #f1f1f1;
-height: 65%;
-width: 100%;
-transition: .5s ease;
-opacity:0;
-color: white;
-font-size: 20px;
-/* padding: 20px; */
-text-align: center;
-top: 0;
-left: 0;
-margin-bottom: 70px;
-margin-top: 10px;
-margin-right: 50px;
+  position: absolute;
+  /* bottom: 0; */
+  /* background: rgb(0, 0, 0); */
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  /* padding: 20px; */
+  /* text-align: center; */
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 70px;
+  margin-top: 10px;
+  margin-right: 50px; */
 }
 
 .overlay i {
-  margin-top: 60px;
   font-size: 70px;
 }
 
@@ -291,16 +302,9 @@ margin-right: 50px;
 
 }
 
-#section4 img {
-  max-height: 200px;
-  width: auto;
-  padding-top: 10px;
-}
-
-#section4 div {
-  padding-left: 10px;
-  width: 200px;
-  margin-left: 20px;
+#section4 > div {
+  padding: 10px;
+  width: 220px;
 }
 
 
@@ -535,20 +539,17 @@ footer {
 }
 
 .left_block2_bar_green {
-  height: 5px;
+  /*height: 5px;*/
+  height: 100%;
   width: 50%;
   background-color: green;
   /* align-self: center;
   flex-direction: row; */
-  display: inline;
-  margin-top: 7px;
   /* margin-left: 10px;
   margin-right: 10px; */
-  display: flex;
   position: absolute;
   top: 0;
   left: 0;
-  text-align: center;
 }
 
 
