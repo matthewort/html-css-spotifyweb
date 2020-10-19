@@ -169,10 +169,6 @@ main {
   opacity: 0.5;
 }
 
-#metalimg {
-  position: relative;
-}
-
 .overlay {
   position: absolute;
   /* bottom: 0; */
@@ -363,17 +359,11 @@ main {
 
 }
 
-#section6 img {
-  max-height: 200px;
-  width: auto;
-  padding-top: 10px;
+#section6 > div {
+  padding: 10px;
+  width: 220px;
 }
 
-#section6 div {
-  padding-left: 10px;
-  width: 200px;
-  margin-left: 20px;
-}
 
 /* SECTION7 ARTISTI PIÙ POPOLARI*/
 #section7 {
@@ -410,22 +400,60 @@ main {
   flex-wrap: wrap;
 }
 
-#section8 img {
-  max-height: 200px;
-  width: auto;
-  padding-top: 10px;
-}
-
-#section8 div {
-  padding-left: 10px;
-  width: 200px;
-  margin-left: 20px;
+#section8 > div {
+  padding: 10px;
+  width: 220px;
 }
 
 #lana, #einaudi {
   border-radius: 100%;
 }
 
+#section8 .image-container {
+  position: relative;
+}
+
+#section8 .image-item {
+  width: 100%;
+  max-width: 200px;
+}
+
+#section8 .image_containall {
+  position: relative;
+}
+
+#section8 .image_containall:hover .overlay {
+  opacity: 0.5;
+}
+
+#section8 .overlay {
+  position: absolute;
+  /* bottom: 0; */
+  /* background: rgb(0, 0, 0); */
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  /* padding: 20px; */
+  /* text-align: center; */
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 70px;
+  margin-top: 10px;
+  margin-right: 50px; */
+  border-radius: 100%;
+}
+
+#section8 .overlay i {
+  font-size: 70px;
+}
 
 /* #section4, #section6, #section8 span {
   font-weight: bold;
@@ -482,6 +510,17 @@ footer {
   padding-left: 40px;
   /* flex-basis: 100px; */
   color: grey;
+  font-size: 20px;
+}
+
+#heart:hover {
+  color: white;
+  font-size: 22px;
+}
+
+#folder:hover {
+  color: white;
+  font-size: 22px;
 }
 
 /* sottoblocco centro */
@@ -589,6 +628,19 @@ footer {
   align-self: center;
   padding-bottom: 10px;
   color: white;
+  font-size: 15px;
+}
+
+#bars:hover {
+  font-size: 20px;
+}
+
+#desktop:hover {
+  font-size: 20px;
+}
+
+#audio:hover {
+  font-size: 20px;
 }
 
 .left_block3_icons i {
@@ -607,8 +659,6 @@ footer {
   margin-right: 10px;
   margin-bottom: 7px;
 }
-
-
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 0px) and (max-width: 768px) {
@@ -855,24 +905,15 @@ footer {
     justify-content: flex-start;
     /* float: left; */
     flex-wrap: wrap;
-
+    z-index: 998;
   }
 
-  #section4 img {
-    max-height: 200px;
-    width: auto;
-    padding-top: 10px;
+  #section4 > div {
+    padding: 10px;
+    width: 220px;
   }
-
-  #section4 div {
-    padding-left: 10px;
-    width: 200px;
-    margin-left: 20px;
-  }
-
 
   .caption {
-    display: block;
     text-align: center;
     font-size: 15px;
     font-weight: bold;
@@ -881,7 +922,6 @@ footer {
   }
 
   .subcaption {
-    display: block;
     text-align: center;
     font-size: 12px;
     font-weight: bold;
@@ -925,16 +965,9 @@ footer {
 
   }
 
-  #section6 img {
-    max-height: 200px;
-    width: auto;
-    padding-top: 10px;
-  }
-
-  #section6 div {
-    padding-left: 10px;
-    width: 200px;
-    margin-left: 20px;
+  #section6 > div {
+    padding: 10px;
+    width: 220px;
   }
 
   /* SECTION7 ARTISTI PIÙ POPOLARI*/
@@ -972,27 +1005,66 @@ footer {
     flex-wrap: wrap;
   }
 
-  #section8 img {
-    max-height: 200px;
-    width: auto;
-    padding-top: 10px;
-  }
-
-  #section8 div {
-    padding-left: 10px;
-    width: 200px;
-    margin-left: 20px;
+  #section8 > div {
+    padding: 10px;
+    width: 220px;
   }
 
   #lana, #einaudi {
     border-radius: 100%;
   }
 
+  #section8 .image-container {
+    position: relative;
+  }
+
+  #section8 .image-item {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  #section8 .image_containall {
+    position: relative;
+  }
+
+  #section8 .image_containall:hover .overlay {
+    opacity: 0.5;
+  }
+
+  #section8 .overlay {
+    position: absolute;
+    /* bottom: 0; */
+    /* background: rgb(0, 0, 0); */
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    /* padding: 20px; */
+    /* text-align: center; */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 70px;
+    margin-top: 10px;
+    margin-right: 50px; */
+    border-radius: 100%;
+  }
+
+  #section8 .overlay i {
+    font-size: 70px;
+  }
 
   /* #section4, #section6, #section8 span {
     font-weight: bold;
     color: white;
   } */
+
 
 
 }
