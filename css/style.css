@@ -210,7 +210,6 @@ main {
   float: left;
   position: fixed;
   top: 0;
-  z-index: 999;
 }
 
 #section1 a:hover {
@@ -581,7 +580,7 @@ footer {
 .left_block2_bar_green {
   /*height: 5px;*/
   height: 100%;
-  width: 50%;
+  width: 40%;
   background-color: green;
   /* align-self: center;
   flex-direction: row; */
@@ -658,7 +657,23 @@ footer {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 7px;
+  position: relative;
 }
+
+.left_block3_bar_green {
+  /*height: 5px;*/
+  height: 100%;
+  width: 40%;
+  background-color: green;
+  /* align-self: center;
+  flex-direction: row; */
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 0px) and (max-width: 768px) {
@@ -1182,7 +1197,7 @@ footer {
   .left_block2_bar_green {
     /*height: 5px;*/
     height: 100%;
-    width: 50%;
+    width: 40%;
     background-color: green;
     /* align-self: center;
     flex-direction: row; */
